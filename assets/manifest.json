@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "./../node_modules/bootstrap/dist/js/bootstrap.js",
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+     "files": [
+      "./../node_modules/jquery/dist/jquery.js"
+    ]
+   }
+ },
+ "config": {
+  "devUrl": "http://reviews.test"
+}
+}
