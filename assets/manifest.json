@@ -25,6 +25,6 @@
    }
  },
  "config": {
-  "devUrl": "http://reviews.test"
+  "devUrl": "http://yourwebsite.test"
 }
 }

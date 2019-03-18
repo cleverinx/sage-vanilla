@@ -38,17 +38,6 @@ For more installation notes, refer to the [Install gulp and Bower](#install-gulp
 
 ## Theme installation
 
-Install Vanilla Sage by copying the project into a new folder within your WordPress themes directory.
-
-Make sure [Composer](https://getcomposer.org/download/) has been installed before moving on.
-
-Install Vanilla Sage using Composer from your WordPress themes directory (replace `your-theme-name` below with the name of your theme):
-
-```shell
-# @ example.com/site/web/app/themes/
-$ composer create-project roots/sage your-theme-name 8.5.4
-```
-
 ## Theme setup
 
 Edit `lib/setup.php` to enable or disable theme features, setup navigation menus, post thumbnail sizes, post formats, and sidebars.
@@ -63,9 +52,10 @@ Building the theme requires [node.js](http://nodejs.org/download/). We recommend
 
 From the command line:
 
-1. Install [gulp](http://gulpjs.com) and [Bower](http://bower.io/) globally with `npm install -g gulp bower`
-2. Navigate to the theme directory, then run `npm install`
-3. Run `bower install`
+1. Install [gulp](http://gulpjs.com) globally with `npm install -g gulp `
+2. Install [yarn](https://yarnpkg.com/en/docs/install#)
+2. Navigate to the theme directory, then run `yarn`
+3. Run `yarn install` to build and compile theme assets
 
 You now have all the necessary dependencies to run the build process.
 
@@ -96,20 +86,3 @@ If your local development URL looks like `http://localhost:8888/project-name/` y
 ...
 ```
 
-## Documentation
-
-Sage documentation is available at [https://roots.io/sage/docs/](https://roots.io/sage/docs/).
-
-## Contributing
-
-Contributions are welcome from everyone. We have [contributing guidelines](https://github.com/roots/guidelines/blob/master/CONTRIBUTING.md) to help you get started.
-
-## Community
-
-Keep track of development and community news.
-
-* Participate on the [Roots Discourse](https://discourse.roots.io/)
-* Follow [@rootswp on Twitter](https://twitter.com/rootswp)
-* Read and subscribe to the [Roots Blog](https://roots.io/blog/)
-* Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
-* Listen to the [Roots Radio podcast](https://roots.io/podcast/)
